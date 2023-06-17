@@ -1,0 +1,18 @@
+import java.util.Scanner;
+class Natural_number_range
+{
+	public static void main(String[] args)
+		{
+   Scanner scan=new Scanner(System.in);
+   System.out.println("To print the natural numbers from range");
+   System.out.println("enter the starting range");
+   int n=scan.nextInt();
+   System.out.println("Enter the ending range");
+   int n1=scan.nextInt();
+    System.out.println("The natural number range from"+n+" to"+n1+" is:");
+	 	for (int a=n;a<=n1 ;a++ )
+	{
+			System.out.println(a);
+	       }
+		}
+}

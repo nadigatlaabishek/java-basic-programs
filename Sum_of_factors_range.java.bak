@@ -1,0 +1,22 @@
+import java.util.Scanner;
+class  Sum_of_factors_range
+{
+	public static void main(String[] args) 
+	{
+		Scanner scan=new Scanner(System.in);
+		System.out.println("To print the sum of factors in the given range: ");
+		System.out.println("Enter the min range.. ");
+		int x=scan.nextInt();
+        System.out.println("Enter the mix range.. ");
+		int y=scan.nextInt();
+		int sum=0;
+		for (int a=x;a<=y ;a++ )
+		{
+			if (x%a==0)
+			{
+	sum=sum+a;
+		}
+	}
+		System.out.println("The sum of factors in the given from  "+x+"  to"+y+"  is = "+sum);
+	}
+}

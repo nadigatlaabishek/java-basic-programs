@@ -1,0 +1,17 @@
+class Perfect_number_or_not
+{
+	public static void main(String[] args) 
+	{
+	     System.out.println("To print the perfect number or not:");
+	         int sum=1;
+	        int x=6;
+		    for (int a=1;a<=x ;a++ )
+		    {
+		    if (x%2==0)
+		    {
+            sum=sum+x;
+		}
+	  	System.out.println(sum);
+	}
+	}
+}

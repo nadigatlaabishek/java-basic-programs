@@ -1,0 +1,33 @@
+class ramakrishna
+{
+	public static void test(int a)
+	{
+		System.out.println(a);
+	}
+	public void test2(int b)
+	{
+		System.out.println(b
+			
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		);
+	}
+	public static void main(String[] args) 
+	{ 
+		test(20);
+		ramakrishna t=new ramakrishna();
+		t.test2(99);
+	}
+}

@@ -1,0 +1,7 @@
+class large_small-number 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+	}
+}

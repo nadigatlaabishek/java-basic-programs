@@ -1,0 +1,13 @@
+import java.util.Scanner;
+class Area_of_a_circle
+{
+	public static void main(String[] args) 
+	{
+		Double pi=3.14,area;
+		Scanner scan=new Scanner(System.in);
+		System.out.println("Enter the radious of circle :");
+		int r=scan.nextInt();
+		area=pi*r*r;
+		System.out.println("The area of a circle is:"+area);
+		}
+}

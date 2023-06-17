@@ -1,0 +1,39 @@
+import java.util.Scanner;
+class Grade_result
+{
+	public static void main(String[] args) 
+	{
+	 Scanner scan=new Scanner(System.in);
+		System.out.println("to print the Grade result for students:");
+		System.out.println("Enter the grade result for student:");
+		char grade=scan.next().charAt(0);
+		if (grade=='A')
+		{
+			System.out.println("you get a first rank:");
+		}
+			else if (grade=='B')
+			{
+				System.out.println("you get a secound rank: ");
+			}
+			else if (grade=='C')
+			{
+				System.out.println("you get a first class:");
+			}
+			else if (grade=='D')
+			{
+				System.out.println("you get a secound class:");
+			}
+			else if (grade=='E')
+			{
+				System.out.println("you get a passed:");
+			}
+			else if (grade=='F')
+			{
+				System.out.println("you are Failed for the exam:");
+			}
+			else 
+		{
+			System.out.println("Enter the corrrect input to find the grade for the student:");
+			}
+	}
+}

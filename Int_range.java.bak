@@ -1,0 +1,9 @@
+class Int_range
+{
+
+	public static void main(String[] args) 
+	{
+				System.out.println(Integer_MAX_VALUE);
+		System.out.println(Integer_MIN_VALUE);
+	}
+}

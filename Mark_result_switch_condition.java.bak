@@ -1,0 +1,27 @@
+import java.util.Scanner;
+class Mark_result_switch_condition  
+{
+	public static void main(String[] args) 
+	{
+		Scanner scan=new Scanner(System.in);
+		System.out.println("To calculate the marks results:");
+		System.out.println("Enter grade that you want print the result:");
+		char grade=scan.next().charAt(0);
+		switch (grade)
+		{
+		case 'A' : case 'a': System.out.println("The student secured first rank");
+		break;
+		case 'B' : case 'b': System.out.println("The student secured secound rank");
+		break;
+		case 'C' : case 'c': System.out.println("The student secured first class");
+		break;
+		case 'D' : case 'd': System.out.println("The student secured secound class");
+		break;
+		case 'E' : case 'e': System.out.println("The student secured passed");
+		break;
+		case 'F' : case 'f': System.out.println("The student failed the exams");
+		break;
+		default:System.out.println("Enter the valid data");
+		}
+	}
+}

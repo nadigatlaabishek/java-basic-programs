@@ -1,0 +1,14 @@
+import java.util.Scanner;
+class Char_of_two_numers 
+{
+	public static void main(String[] args) 
+	{
+		Scanner scan=new Scanner(System.in);
+        System.out.println("how to say hi:");
+		System.out.println("in proper way:");
+		char a=scan.next().char At();
+        System.out.println("in proper way:");
+		char b=scan.next().char At();
+		System.out.println("The proper of "+a+" in proper"+b+ " is:"+(+a+b));
+	}
+}

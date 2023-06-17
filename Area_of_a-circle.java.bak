@@ -1,0 +1,14 @@
+
+import java.util.Scanner;
+class Area_of_a_circle
+{
+	public static void main(String[] args) 
+	{
+		Scanner scan=new Scanner(System.in);
+        System.out.println("The area of a circle is:");
+		System.out.println("Enter the redious of a circle:");
+		Double radious;
+		Double area=scan.nextDouble();
+		System.out.println("The area of a circle is:"+(+3.14*radious*radious));
+		}
+}
